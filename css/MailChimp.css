@@ -1,0 +1,24 @@
+#MailchimpCampaigns { padding: 3px; }
+#MailchimpCampaigns li { width: 100%; margin-bottom: 3px; }
+#MailchimpCampaigns li a { padding: 2px; }
+
+.field { margin: 0px !important; }
+.field label { display: block; float: none !important; width: 100% !important; margin: 0px !important; font: bold 10px/14px Arial; margin-bottom: 7px; } 
+.field .middleColumn { padding: 5px; background: #efefef; width: 90% !important; }
+.field input, .field select, .field textarea { width: 100%; }
+.calendardate input, .dropdowntime input { width: 150px !important; }
+.checkbox input { width: 20px !important; float: left !important; }
+.checkbox label { float: left !important; width: 200px !important; }
+
+.templateList { width: 100%; display: block; overflow: auto; }
+.templateList li { width: 200px; height: 200px; float: left; display: block; overflow: hidden; margin: 0px 7px 7px 0px; border: 3px #CCC solid; cursor: pointer; }
+.templateList li img { width: 200px; }
+.templateList li p { background-color:#000000; color:#FFFFFF; display:block; font:11px/13px Arial; height:44px; margin-top:-53px; opacity:0.8; padding:3px; position:absolute; width:194px; }
+.templateList li p strong { font: bold 11px/13px Arial; } 
+
+
+/* =statistics related styles
+-----------------------------*/
+.statHolder { overflow: auto; display: block; }
+.statHolder h1 { margin-bottom: 5px; padding-bottom: 7px; border-bottom: 1px solid #ccc; }
+.statHolder .box { display: block; float: left; width: 400px; margin: 0px 10px 10px 0px; border: 1px solid #CCC; height: 300px; }
