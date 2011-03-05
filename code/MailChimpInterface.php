@@ -496,9 +496,11 @@ JS
 JS
 ;             		
 			    
-                $geoJS = "[";
-                foreach($geo as $geoCont){
-					$geoJS .= "['" . $geoCont['name'] . "', " . $geoCont['opens'] . "],";
+                $geoJS = "[";     
+				if(is_array($geo)){
+                	foreach($geo as $geoCont){
+						$geoJS .= "['" . $geoCont['name'] . "', " . $geoCont['opens'] . "],";
+					}    
 				}
 				
 				$geoJS = substr($geoJS, 0, -1);             
